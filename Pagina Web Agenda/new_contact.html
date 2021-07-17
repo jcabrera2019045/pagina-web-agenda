@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<style>
+    input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="assets/index_style.css" type="text/css">
+    <title>My Contacts</title>
+</head>
+
+<body background="assets/images/background-image.jpg">
+    <h1 class="loginTitle">Agregar Contacto</h1>
+    <form class="form">
+        <img src="assets/images/contact-logo.png" class="loginImage">
+        <h3 class="subtitle">Información del Contacto</h3>
+        <label class="label">Nombre:</label><br><br>
+        <input type="text" name="name" placeholder="Nombre" class="input"><br><br>
+        <label class="label">Correo:</label><br><br>
+        <input type="text" name="email" placeholder="Correo" class="input"><br><br>
+        <label class="label">Numero:</label><br><br>
+        <input type="number" name="name" placeholder="Numero" class="input"><br><br><br>
+        <a href="contacts.html" class="button">Agregar</a>
+    </form>
+</body>
+
+</html>

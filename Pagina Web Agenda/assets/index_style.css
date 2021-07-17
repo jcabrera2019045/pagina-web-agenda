@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.headerOption a{
+    margin-top: 0;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    padding-right: 2rem;
+}
+
+ul.navigation li {
+    display: inline;
+  }
+
+.header{
+    position: fixed;
+    top: 0;
+    right:  0;
+    width: 100%;
+    height: 11%;
+    padding-bottom: 1rem;
+    padding-right: 5rem;
+    background:#273B7A;
+    text-align: end; 
+    margin-top: 0;
+  }
+
+.loginTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-weight: lighter;
+}
+
+.mainTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 320%;
+    font-weight: lighter;
+    color: white;
+    padding-right: 60%;
+}
+
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 180%;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    ;
+}
+
+.form{
+    text-align: center;
+}
+
+.label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    font-weight: normal;
+    text-align: center;
+}
+
+.input{
+    width: 12%;
+    font-size: 100%;
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    border-bottom:1px solid grey;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    color: white;
+    padding: 8px;
+    font-weight: normal;
+    text-decoration: none;
+    outline-color: transparent;
+    width: 7%;
+    height: auto;
+    background-color: #273B7A;
+    border-radius: 4px;
+    border: thin;
+}
+
+.loginImage{
+    width: 10%;
+    height: auto;
+}
+
+.contactImage{
+    width: 40%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.table tr,td{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+}
+
+.table{
+    padding-top: 15%;
+}
+
+.nav {
+    padding-top: 3%;
+    font-size: 130%;
+}
+
+.grid-container {
+    display: grid;
+    text-align: center;
+    padding-top: 15%;
+    display: inline-grid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+  }
+
+  .grid-item{
+      padding: 5px;
+  }
